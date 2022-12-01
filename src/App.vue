@@ -1,10 +1,12 @@
 
 <script>
 import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
 
 export default {
 
-  components: { AppTitle },
+  
+  components: { AppTitle, AppHero },
   data() {
     return {
 
@@ -21,6 +23,7 @@ export default {
       <img src="../src/assets/vite.svg" alt="">
     </div> 
   </div>
+  <AppHero></AppHero>
 </template>
 
 <style>
